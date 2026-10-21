@@ -1,0 +1,110 @@
+{
+  "categories": [
+    { "slug": "coffee-beans", "name": "قهوه تازه‌برشته", "description": "دانه‌های تک‌خاستگاه و ترکیبی، برشته‌شده در همین هفته." },
+    { "slug": "brew-gear", "name": "دمی‌افزار", "description": "ابزار دم‌آوری برای خانه و محل کار." },
+    { "slug": "gift-sets", "name": "پک هدیه", "description": "مجموعه‌های آماده برای هدیه دادن." }
+  ],
+  "attributes": {
+    "weight": { "name": "وزن", "terms": [ ["250g", "۲۵۰ گرم", 1], ["500g", "۵۰۰ گرم", 1.9], ["1kg", "۱ کیلوگرم", 3.6] ] },
+    "grind": { "name": "آسیاب", "terms": [ ["whole", "دانه کامل"], ["espresso", "آسیاب اسپرسو"], ["filter", "آسیاب فرانسه و دمی"] ] }
+  },
+  "products": [
+    {
+      "sku": "DN-ETH-YRG", "type": "variable", "category": "coffee-beans",
+      "name": "اتیوپی یرگاچفه", "origin": "اتیوپی، یرگاچفه", "roast": 2,
+      "notes": "یاس، پوست لیمو، چای سیاه",
+      "short": "تک‌خاستگاه شسته‌شده با اسیدیته روشن و طعم گل‌وگیاهی؛ مناسب دمی و V60.",
+      "description": "این قهوه در ارتفاع ۱۹۰۰ تا ۲۲۰۰ متری کشت و به روش شسته فرآوری شده است. برشت روشن آن طعم‌های گلی و مرکباتی را حفظ می‌کند. برای دم‌آوری با V60 نسبت ۱ به ۱۶ و آب ۹۲ درجه را پیشنهاد می‌کنیم.",
+      "price": 420000, "color": "#C9D8C5", "accent": "#2F5D45", "featured": true
+    },
+    {
+      "sku": "DN-COL-HUI", "type": "variable", "category": "coffee-beans",
+      "name": "کلمبیا هویلا", "origin": "کلمبیا، هویلا", "roast": 3,
+      "notes": "کارامل، سیب قرمز، شکلات شیری",
+      "short": "تعادل شیرینی و اسیدیته؛ هم برای اسپرسو و هم برای دمی.",
+      "description": "قهوه‌ای همه‌کاره با بادی متوسط و شیرینی کاراملی. اگر تازه به قهوه تخصصی رسیده‌اید، کلمبیا هویلا نقطه شروع خوبی است.",
+      "price": 380000, "color": "#E8C9A8", "accent": "#7A3E12", "featured": true
+    },
+    {
+      "sku": "DN-BRA-CER", "type": "variable", "category": "coffee-beans",
+      "name": "برزیل سرادو", "origin": "برزیل، سرادو", "roast": 4,
+      "notes": "فندق، کاکائو، شیرینی کم‌اسید",
+      "short": "اسیدیته کم و طعم آجیلی؛ گزینه مناسب برای قهوه با شیر.",
+      "description": "فرآوری طبیعی و برشت متوسط‌رو‌به‌تیره، فنجانی گرم و آجیلی می‌سازد که با شیر به‌خوبی ترکیب می‌شود. این هفته با تخفیف عرضه می‌شود.",
+      "price": 320000, "sale_ratio": 0.85, "color": "#D9B98C", "accent": "#5B3A1E", "featured": true
+    },
+    {
+      "sku": "DN-ESP-BLD", "type": "variable", "category": "coffee-beans",
+      "name": "ترکیب اسپرسو دانه", "origin": "ترکیب ۷۰٪ عربیکا و ۳۰٪ روبوستا", "roast": 5,
+      "notes": "شکلات تلخ، ادویه، بادی سنگین",
+      "short": "ترکیب کافه‌ای با کرمای ضخیم؛ برای اسپرسو، لاته و کاپوچینو.",
+      "description": "ترکیبی که برای دستگاه‌های اسپرسوی خانگی و کافه‌ای تنظیم شده است. روبوستا کرما و بادی را بیشتر می‌کند و عربیکا شیرینی را حفظ می‌کند.",
+      "price": 290000, "color": "#4A3328", "accent": "#E9C46A", "featured": true
+    },
+    {
+      "sku": "DN-KEN-AA", "type": "variable", "category": "coffee-beans",
+      "name": "کنیا AA", "origin": "کنیا، نیری", "roast": 2,
+      "notes": "انگور فرنگی سیاه، گریپ‌فروت، شربتی",
+      "short": "اسیدیته پررنگ و میوه‌ای؛ فعلاً ناموجود است.",
+      "description": "یکی از پرطرفدارترین خاستگاه‌ها برای علاقه‌مندان قهوه دمی. محموله بعدی پس از برشت هفته آینده موجود می‌شود.",
+      "price": 460000, "stock": "outofstock", "color": "#D7C3D8", "accent": "#6A2C70"
+    },
+    {
+      "sku": "DN-GUA-ANT", "type": "variable", "category": "coffee-beans",
+      "name": "گواتمالا آنتیگوا", "origin": "گواتمالا، آنتیگوا", "roast": 3,
+      "notes": "کاکائو، پوست پرتقال، شکر قهوه‌ای",
+      "short": "شیرین و متعادل با پایان کاکائویی.",
+      "description": "خاک آتشفشانی آنتیگوا به این قهوه بادی متوسط و شیرینی ماندگار داده است. برای فرنچ‌پرس و موکاپات عالی است.",
+      "price": 400000, "color": "#F0D5B5", "accent": "#9A4A1A"
+    },
+    {
+      "sku": "DN-GR-V60", "type": "simple", "category": "brew-gear", "art": "dripper",
+      "name": "دریپر V60 سرامیکی", "short": "دریپر مخروطی سایز ۰۲ برای ۱ تا ۴ فنجان.",
+      "description": "سرامیک ضخیم دما را ثابت نگه می‌دارد و شیارهای مارپیچ جریان آب را یکنواخت می‌کنند. سازگار با فیلتر کاغذی سایز ۰۲.",
+      "price": 980000, "color": "#E7ECEF", "accent": "#FFFFFF", "featured": true
+    },
+    {
+      "sku": "DN-GR-MOKA", "type": "simple", "category": "brew-gear", "art": "moka",
+      "name": "موکاپات ۳ کاپ", "short": "موکاپات آلومینیومی برای اجاق گاز.",
+      "description": "قهوه‌ای غلیظ و نزدیک به اسپرسو، بدون نیاز به دستگاه. برای اجاق القایی مناسب نیست.",
+      "price": 1450000, "sale_price": 1290000, "color": "#E5E5E2", "accent": "#9AA0A6"
+    },
+    {
+      "sku": "DN-GR-GRND", "type": "simple", "category": "brew-gear", "art": "grinder",
+      "name": "آسیاب دستی استیل", "short": "تیغه مخروطی استیل با ۳۰ درجه تنظیم.",
+      "description": "از آسیاب درشت برای فرنچ‌پرس تا آسیاب ریز برای اسپرسو. ظرفیت مخزن ۲۰ گرم.",
+      "price": 2600000, "color": "#E3E8E2", "accent": "#5E6A64"
+    },
+    {
+      "sku": "DN-GR-KETL", "type": "simple", "category": "brew-gear", "art": "kettle",
+      "name": "کتری گوسنک ۶۰۰ میلی‌لیتری", "short": "لوله باریک برای ریختن دقیق آب در دم‌آوری دمی.",
+      "description": "بدنه استیل و دسته عایق. مناسب اجاق گاز و القایی.",
+      "price": 1850000, "color": "#E9E4DE", "accent": "#2B2B2B"
+    },
+    {
+      "sku": "DN-GR-FLTR", "type": "simple", "category": "brew-gear", "art": "filters",
+      "name": "فیلتر کاغذی V60 (۱۰۰ عدد)", "short": "فیلتر سفید سایز ۰۲، بدون بوی کاغذ.",
+      "description": "پیش از دم‌آوری، فیلتر را یک بار با آب داغ بشویید تا طعم کاغذ از بین برود.",
+      "price": 260000, "color": "#F1EFEA", "accent": "#FFFFFF"
+    },
+    {
+      "sku": "DN-GIFT-TRIO", "type": "simple", "category": "gift-sets", "art": "gift",
+      "name": "پک هدیه آشنایی", "short": "سه قهوه ۱۰۰ گرمی از سه خاستگاه، در جعبه هدیه.",
+      "description": "اتیوپی یرگاچفه، کلمبیا هویلا و برزیل سرادو در بسته‌های ۱۰۰ گرمی، همراه کارت راهنمای دم‌آوری.",
+      "price": 690000, "color": "#F2D7D9", "accent": "#A8233A", "featured": true
+    }
+  ],
+  "pages": [
+    { "slug": "about", "title": "درباره ما", "file": "about" },
+    { "slug": "contact", "title": "تماس با ما", "file": "contact" },
+    { "slug": "faq", "title": "سؤالات متداول", "file": "faq" },
+    { "slug": "shipping-returns", "title": "ارسال و بازگشت کالا", "file": "shipping" },
+    { "slug": "terms", "title": "قوانین و مقررات", "file": "terms" }
+  ],
+  "shipping": {
+    "tehran": { "name": "تهران", "state": "IR:THR", "flat_title": "پیک تهران (۱ روز کاری)", "flat_cost": 80000 },
+    "iran": { "name": "سایر استان‌ها", "flat_title": "پست پیشتاز (۲ تا ۴ روز کاری)", "flat_cost": 95000 },
+    "free_min": 1500000
+  },
+  "coupon": { "code": "WELCOME10", "percent": 10 }
+}

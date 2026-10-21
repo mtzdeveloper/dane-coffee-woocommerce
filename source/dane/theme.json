@@ -1,0 +1,121 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"settings": {
+		"appearanceTools": true,
+		"useRootPaddingAwareAlignments": true,
+		"layout": { "contentSize": "760px", "wideSize": "1240px" },
+		"color": {
+			"defaultPalette": false,
+			"defaultGradients": false,
+			"palette": [
+				{ "slug": "base", "name": "زمینه", "color": "#FFFFFF" },
+				{ "slug": "leaf-tint", "name": "سبز برگ روشن", "color": "#EEF2EC" },
+				{ "slug": "ink", "name": "اسپرسو", "color": "#1F1B18" },
+				{ "slug": "muted", "name": "متن کم‌رنگ", "color": "#6B635C" },
+				{ "slug": "line", "name": "خط", "color": "#E4E1DC" },
+				{ "slug": "cherry", "name": "گیلاس قهوه", "color": "#A8233A" },
+				{ "slug": "cherry-dark", "name": "گیلاس تیره", "color": "#861A2D" },
+				{ "slug": "leaf", "name": "سبز برگ", "color": "#2F5D45" }
+			]
+		},
+		"spacing": {
+			"units": [ "px", "rem", "%", "vw" ],
+			"spacingSizes": [
+				{ "slug": "20", "name": "۱", "size": "0.5rem" },
+				{ "slug": "30", "name": "۲", "size": "1rem" },
+				{ "slug": "40", "name": "۳", "size": "1.5rem" },
+				{ "slug": "50", "name": "۴", "size": "clamp(1.75rem, 3vw, 2.5rem)" },
+				{ "slug": "60", "name": "۵", "size": "clamp(2.5rem, 5vw, 4rem)" },
+				{ "slug": "70", "name": "۶", "size": "clamp(3.5rem, 8vw, 6.5rem)" }
+			]
+		},
+		"typography": {
+			"defaultFontSizes": false,
+			"fluid": true,
+			"fontFamilies": [
+				{
+					"slug": "vazirmatn",
+					"name": "Vazirmatn",
+					"fontFamily": "Vazirmatn, Tahoma, sans-serif",
+					"fontFace": [
+						{
+							"fontFamily": "Vazirmatn",
+							"fontWeight": "100 900",
+							"fontStyle": "normal",
+							"fontDisplay": "swap",
+							"src": [ "file:./assets/fonts/Vazirmatn[wght].woff2" ]
+						}
+					]
+				}
+			],
+			"fontSizes": [
+				{ "slug": "small", "name": "کوچک", "size": "0.875rem", "fluid": false },
+				{ "slug": "medium", "name": "متوسط", "size": "1rem", "fluid": false },
+				{ "slug": "large", "name": "بزرگ", "size": "1.25rem", "fluid": { "min": "1.125rem", "max": "1.25rem" } },
+				{ "slug": "x-large", "name": "خیلی بزرگ", "size": "1.75rem", "fluid": { "min": "1.4rem", "max": "1.75rem" } },
+				{ "slug": "xx-large", "name": "عنوان", "size": "2.5rem", "fluid": { "min": "1.9rem", "max": "2.5rem" } },
+				{ "slug": "display", "name": "عنوان اصلی", "size": "4rem", "fluid": { "min": "2.3rem", "max": "4rem" } }
+			]
+		}
+	},
+	"styles": {
+		"color": { "background": "var(--wp--preset--color--base)", "text": "var(--wp--preset--color--ink)" },
+		"spacing": {
+			"blockGap": "1.25rem",
+			"padding": { "left": "clamp(1rem, 4vw, 2rem)", "right": "clamp(1rem, 4vw, 2rem)" }
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--vazirmatn)",
+			"fontSize": "var(--wp--preset--font-size--medium)",
+			"lineHeight": "1.85"
+		},
+		"elements": {
+			"link": {
+				"color": { "text": "var(--wp--preset--color--cherry)" },
+				"typography": { "textDecoration": "underline" },
+				":hover": { "color": { "text": "var(--wp--preset--color--cherry-dark)" } }
+			},
+			"heading": {
+				"typography": { "fontWeight": "800", "lineHeight": "1.4" },
+				"color": { "text": "var(--wp--preset--color--ink)" }
+			},
+			"h1": { "typography": { "fontSize": "var(--wp--preset--font-size--xx-large)" } },
+			"h2": { "typography": { "fontSize": "var(--wp--preset--font-size--x-large)" } },
+			"h3": { "typography": { "fontSize": "var(--wp--preset--font-size--large)" } },
+			"button": {
+				"color": { "background": "var(--wp--preset--color--ink)", "text": "var(--wp--preset--color--base)" },
+				"border": { "radius": "999px" },
+				"spacing": { "padding": { "top": "0.7rem", "bottom": "0.7rem", "left": "1.6rem", "right": "1.6rem" } },
+				"typography": { "fontWeight": "700", "fontSize": "var(--wp--preset--font-size--medium)" },
+				":hover": { "color": { "background": "var(--wp--preset--color--cherry)", "text": "var(--wp--preset--color--base)" } },
+				":focus": { "outline": { "color": "var(--wp--preset--color--cherry)", "offset": "3px", "style": "solid", "width": "2px" } }
+			}
+		},
+		"blocks": {
+			"core/site-title": {
+				"typography": { "fontWeight": "900", "fontSize": "1.6rem" },
+				"elements": { "link": { "color": { "text": "var(--wp--preset--color--cherry)" }, "typography": { "textDecoration": "none" } } }
+			},
+			"core/navigation": {
+				"typography": { "fontSize": "var(--wp--preset--font-size--medium)", "fontWeight": "500" },
+				"elements": { "link": { "typography": { "textDecoration": "none" }, "color": { "text": "var(--wp--preset--color--ink)" } } }
+			},
+			"core/details": {
+				"border": { "bottom": { "color": "var(--wp--preset--color--line)", "width": "1px", "style": "solid" } },
+				"spacing": { "padding": { "top": "1rem", "bottom": "1rem" } }
+			},
+			"core/table": {
+				"border": { "color": "var(--wp--preset--color--line)" }
+			},
+			"core/post-title": {
+				"typography": { "fontWeight": "800" }
+			}
+		}
+	},
+	"templateParts": [
+		{ "name": "header", "title": "سربرگ", "area": "header" },
+		{ "name": "footer", "title": "پابرگ", "area": "footer" }
+	],
+	"customTemplates": []
+}
